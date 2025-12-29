@@ -1,4 +1,4 @@
-# oda-Style Language Generation with LoRA-Fine-Tuned Gemma-2B
+# Yoda-Style Language Generation with LoRA-Fine-Tuned Gemma-2B
 This project implements parameter-efficient fine-tuning of a large language model to generate responses in the distinct syntactic style of Yoda. A Gemma-2B base model is loaded in 4-bit NF4 precision and fine-tuned using LoRA, enabling efficient training by updating only a small fraction of the model’s parameters.
 The project also includes an interactive web-based chat interface that allows users to converse with the model in real time using Gradio.
 
