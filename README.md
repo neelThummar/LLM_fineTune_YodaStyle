@@ -61,10 +61,23 @@ Features
 - Adjustable generation parameters
 - Runs locally using the merged inference-ready model
 
+## Model Weights (Required)
+Due to GitHub file size limits, model weights are not included in this repository.
+
+To use the chat interface:
+1. Download or fine-tune the Gemma-2B model
+2. Place the merged model at:
+
+models/gemma_yoda_style_merged/
+
+The directory should contain the model weights and tokenizer files.
+
+
 ## How to Run
 1. Install dependencies from `requirements.txt`
-2. Run the fine-tuning script - finetune_script.py
-3. Launch the chat interface from the link after runing yoda_webchat.py 
+2. Install gemma-2b model - run download_modle.py
+3. Run the fine-tuning script - finetune_script.py
+4. Launch the chat interface from the link after runing yoda_webchat.py 
 
  ## Credits
 - Base model: Gemma
