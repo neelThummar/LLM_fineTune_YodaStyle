@@ -75,9 +75,9 @@ The directory should contain the model weights and tokenizer files.
 
 ## How to Run
 1. Install dependencies from `requirements.txt`
-2. Install gemma-2b model - run download_modle.py
-3. Run the fine-tuning script - finetune_script.py
-4. Launch the chat interface from the link after runing yoda_webchat.py 
+2. Install gemma-2b model - run `download_modle.py`
+3. Run the fine-tuning script - `finetune_script.py`
+4. Launch the chat interface from the link after runing `yoda_webchat.py` 
 
  ## Credits
 - Base model: Gemma
