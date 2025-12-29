@@ -1,0 +1,26 @@
+# Core ML
+torch>=2.0
+transformers>=4.40.0
+accelerate>=0.28.0
+
+# LoRA / PEFT
+peft>=0.10.0
+
+# Quantization
+bitsandbytes>=0.43.0
+
+# Optimizer
+lion-pytorch>=0.1.2
+
+# Data + utilities
+numpy
+pandas
+tqdm
+matplotlib
+seaborn
+
+# Web UI
+gradio>=4.0.0
+
+# Optional (but recommended)
+scipy
