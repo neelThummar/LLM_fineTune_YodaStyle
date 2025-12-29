@@ -53,7 +53,7 @@ It also showcases end-to-end ownership: data handling, model training, merging, 
     Repition penalties
 - Produces fluent, grammatically inverted outputs characteristic of Yoda’s speech
 
-##Interactive Web Interface
+## Interactive Web Interface
 This project includes an interactive chat application built with Gradio, allowing users to converse with the fine-tuned model in real time. The interface loads the merged Gemma-2B model and enables conversational interaction directly in the browser.
 
 Features
